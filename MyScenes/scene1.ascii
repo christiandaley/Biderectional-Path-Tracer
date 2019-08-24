@@ -1,0 +1,182 @@
+Composer format 2.1 ascii
+camera {
+  position 0 2 0
+  viewDirection 0 0 -1
+  focalDistance 10
+  orthoUp 0 1 0
+  verticalFOV 0.785398
+}
+
+point_light {
+  position -2.5 2 -6
+  color 1 1 1
+}
+
+sphere {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0.56 0.35 0.14
+    ambColor 0.0 0.0 0.0
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  origin 2.0 1.2 -12
+  radius 1.2
+  xaxis 1 0 0
+  xlength 1.33453
+  yaxis 0 1 0
+  ylength 1.33453
+  zaxis 0 0 1
+  zlength 1.33453
+}
+
+sphere {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0.56 0.35 0.14
+    ambColor 0.0 0.0 0.0
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  origin -1.0 0.5 -6.5
+  radius 0.5
+  xaxis 1 0 0
+  xlength 1.33453
+  yaxis 0 1 0
+  ylength 1.33453
+  zaxis 0 0 1
+  zlength 1.33453
+}
+
+poly_set {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0.0 0.0 0.0
+    ambColor 0.0 0.0 0.0
+    specColor 0.5 0.5 0.5
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_FACE_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 2
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos -5 0 0
+    pos 5 0  0
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos 5 0 -15
+    pos 5 0 0
+  }
+
+}
+
+ poly_set {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0.3 0.3 0.3
+    ambColor 0.2 0.2 0.2
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_FACE_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 10
+
+  
+
+  poly {
+    numVertices 3
+    pos -5 0 5
+    pos 5 5 5
+    pos 5 0 5
+
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 5
+    pos -5 5 5
+    pos 5 5 5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos -5 5 -15
+    pos 5 5 -15
+  }
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos 5 0 -15
+    pos 5 5 -15
+  }
+  
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos -5 0 5
+    pos -5 5 -15
+  }
+
+  poly {
+    numVertices 3
+    pos -5 5 -15
+    pos -5 5 5
+    pos -5 0 5
+  }
+
+  poly {
+    numVertices 3
+    pos 5 0 -15
+    pos 5 0 5
+    pos 5 5 -15
+  }
+
+  poly {
+    numVertices 3
+    pos 5 5 -15
+    pos 5 5 5
+    pos 5 0 5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 5 -15
+    pos -5 5 5
+    pos 5 5 5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 5 -15
+    pos 5 5 -15
+    pos 5 5 5
+  }
+
+}

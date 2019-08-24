@@ -1,0 +1,368 @@
+Composer format 2.1 ascii
+camera {
+  position 1 1.75 0
+  viewDirection -0.2 0 -1
+  focalDistance 10
+  orthoUp 0 1 0
+  verticalFOV 0.785398
+}
+
+point_light {
+  position 4 2 -14.5
+  color 1 1 1
+}
+
+sphere {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 1 0 0
+    ambColor 0.0 0.0 0.0
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  origin -3.5 1.0 -10
+  radius 1.0
+  xaxis 1 0 0
+  xlength 1.33453
+  yaxis 0 1 0
+  ylength 1.33453
+  zaxis 0 0 1
+  zlength 1.33453
+}
+
+sphere {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0 0 0
+    ambColor 0.0 0.0 0.0
+    specColor 1 1 1
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  origin 1.0 1.5 -11
+  radius 1.5
+  xaxis 1 0 0
+  xlength 1.33453
+  yaxis 0 1 0
+  ylength 1.33453
+  zaxis 0 0 1
+  zlength 1.33453
+}
+
+poly_set {
+  name PURPLEBLOCK
+  numMaterials 1
+  material {
+    diffColor 0.5 0 0.5
+    ambColor 0 0 0
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_FACE_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 12
+
+  poly {
+    numVertices 3
+    pos -2 0 -7
+    pos -2 0.25 -7
+    pos -2 0.25 -6
+  }
+  
+  poly {
+    numVertices 3
+    pos -2 0 -7
+    pos -2 0 -6
+    pos -2 0.25 -6
+  }
+
+  poly {
+    numVertices 3
+    pos 0 0.5 -7
+    pos 0 0.75 -7
+    pos 0 0.75 -6
+  }
+  
+  poly {
+    numVertices 3
+    pos 0 0.5 -7
+    pos 0 0.5 -6
+    pos 0 0.75 -6
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0 -7
+    pos -2 0 -6
+    pos 0 0.5 -6
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0 -7
+    pos 0 0.5 -7
+    pos 0 0.5 -6
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0.25 -7
+    pos -2 0.25 -6
+    pos 0 0.75 -6
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0.25 -7
+    pos 0 0.75 -7
+    pos 0 0.75 -6
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0 -7
+    pos -2 0.25 -7
+    pos 0 0.75 -7
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0 -7
+    pos 0 0.5 -7
+    pos 0 0.75 -7
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0 -6
+    pos -2 0.25 -6
+    pos 0 0.75 -6
+  }
+
+  poly {
+    numVertices 3
+    pos -2 0 -6
+    pos 0 0.5 -6
+    pos 0 0.75 -6
+  }
+  
+}
+
+poly_set {
+  name GREENBLOCK
+  numMaterials 1
+  material {
+    diffColor 0 1 0
+    ambColor 0 0 0
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_FACE_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 10
+
+  poly {
+    numVertices 3
+    pos -1 0.25 -8
+    pos 0 0.25 -5
+    pos 2 0.25 -5
+  }
+
+  poly {
+    numVertices 3
+    pos -1 0.25 -8
+    pos 1 0.25 -8
+    pos 2 0.25 -5
+  }
+
+  poly {
+    numVertices 3
+    pos 0 0 -5
+    pos 0 0.25 -5
+    pos 2 0.25 -5
+  }
+
+  poly {
+    numVertices 3
+    pos 0 0 -5
+    pos 2 0 -5
+    pos 2 0.25 -5
+  }
+
+  poly {
+    numVertices 3
+    pos -1 0 -8
+    pos -1 0.25 -8
+    pos 1 0.25 -8
+  }
+
+  poly {
+    numVertices 3
+    pos -1 0 -8
+    pos 1 0 -8
+    pos 1 0.25 -8
+  }
+
+  poly {
+    numVertices 3
+    pos -1 0 -8
+    pos -1 0.25 -8
+    pos 0 0.25 -5
+  }
+
+  poly {
+    numVertices 3
+    pos -1 0 -8
+    pos 0 0 -5
+    pos 0 0.25 -5
+  }
+
+  poly {
+    numVertices 3
+    pos 1 0 -8
+    pos 1 0.25 -8
+    pos 2 0.25 -5
+  }
+
+  poly {
+    numVertices 3
+    pos 1 0 -8
+    pos 2 0 -5
+    pos 2 0.25 -5
+  }
+
+}
+
+poly_set {
+  name NULL
+  numMaterials 1
+  material {
+    diffColor 0.55 0.55 0.55
+    ambColor 0 0 0
+    specColor 0 0 0
+    emisColor 0 0 0
+    shininess 1.0
+    ktran 0
+  }
+  type POLYSET_TRI_MESH
+  normType PER_FACE_NORMAL
+  materialBinding PER_OBJECT_MATERIAL
+  hasTextureCoords FALSE
+  rowSize 0
+  numPolys 14
+
+  poly {
+    numVertices 3
+    pos 3 0 -15
+    pos 3 2.5 -15
+    pos 3 2.5 -6.5
+  }
+
+  poly {
+    numVertices 3
+    pos 3 0 -15
+    pos 3 0 -6.5
+    pos 3 2.5 -6.5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos -5 0 5
+    pos 5 0  5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos 5 0 -15
+    pos 5 0 5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 5
+    pos 5 5 5
+    pos 5 0 5
+
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 5
+    pos -5 5 5
+    pos 5 5 5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos -5 5 -15
+    pos 5 5 -15
+  }
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos 5 0 -15
+    pos 5 5 -15
+  }
+  
+
+  poly {
+    numVertices 3
+    pos -5 0 -15
+    pos -5 0 5
+    pos -5 5 -15
+  }
+
+  poly {
+    numVertices 3
+    pos -5 5 -15
+    pos -5 5 5
+    pos -5 0 5
+  }
+
+  poly {
+    numVertices 3
+    pos 5 0 -15
+    pos 5 0 5
+    pos 5 5 -15
+  }
+
+  poly {
+    numVertices 3
+    pos 5 5 -15
+    pos 5 5 5
+    pos 5 0 5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 5 -15
+    pos -5 5 5
+    pos 5 5 5
+  }
+
+  poly {
+    numVertices 3
+    pos -5 5 -15
+    pos 5 5 -15
+    pos 5 5 5
+  }
+
+}
